@@ -3,7 +3,6 @@ home: true
 heroImage: /logo.png
 actionText: 开始使用 →
 actionLink: https://github.com/peacelovea/ts-lib-basic
-footer: MIT Licensed | Copyright © 2018-present linkFly
 features:
 - title: 快速
   details: 快速创建库
