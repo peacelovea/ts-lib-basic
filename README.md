@@ -1,6 +1,6 @@
 # ts-lib-basic
 
-使用 TypeScript 快速编写一个应用库，提供了一套基础项目骨架目录，集成了基础工具（编译、测试、文档托管）。[https://linkfly6.github.io/ts-lib-basic/](https://linkfly6.github.io/ts-lib-basic/)。
+使用 TypeScript 快速编写一个应用库，提供了一套基础项目骨架目录，集成了基础工具（编译、测试、文档托管）。[https://peacelovea.github.io/ts-lib-basic/](https://peacelovea.github.io/ts-lib-basic/)。
 
 将本仓库 clone 到本地，可作为一个新的库骨架。
 

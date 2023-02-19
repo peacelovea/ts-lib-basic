@@ -4,7 +4,7 @@ module.exports = {
   base: '/ts-lib-basic/',
   themeConfig: {
     logo: '/logo.png',
-    repo: 'https://github.com/linkFly6/ts-lib-basic',
+    repo: 'https://github.com/peacelovea/ts-lib-basic',
     repoLabel: 'Github',
     editLinks: true,
     editLinkText: '编辑此页',
@@ -23,7 +23,7 @@ module.exports = {
       // },
       {
         text: '更新日志',
-        link: 'https://github.com/linkFly6/ts-lib-basic#release-history',
+        link: 'https://github.com/peacelovea/ts-lib-basic#release-history',
       },
     ]
   }

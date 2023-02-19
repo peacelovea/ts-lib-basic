@@ -3,7 +3,7 @@
   "text": "快速基于 TypeScript 编写一个库",
   "version": "1.1.0",
   "description": "集成了基础工具的，使用 TypeScript 快速编写一个应用库",
-  "author": "linkFly <linkFly6@live.com>",
+  "author": "shiyubo <903923381@qq.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:linkFly6/ts-lib-basic.git"
+    "url": "git@github.com:peacelovea/ts-lib-basic.git"
   },
   "engines": {
     "node": ">=8.0.0"
