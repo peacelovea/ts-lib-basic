@@ -1,17 +1,21 @@
-sudo: false
 language: node_js
+
 node_js:
-  - "8"
+  - node
 
-cache:
-  directories:
-  - node_modules
-
-branches:
-  only:
-  - master
+cache: npm
 
 script:
-  # 自动部署 docs
-  # - npm run docs:build
-  npm run test
+  - npm test
+
+deploy:
+ - provider: script
+   skip_cleanup: true
+   script: npm install -g serverless && sls deploy --stage staging
+   on:
+     all_branches: true
+ - provider: script
+   skip_cleanup: true
+   script: npm install -g serverless && sls deploy --stage prod
+   on:
+     branch: master
